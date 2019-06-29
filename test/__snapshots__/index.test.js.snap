@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`trasnform-react-styled-system-space-index code: code 1`] = `
+"
+function Component(){}
+Component.defaultProps = {
+    p: 2,
+    px: [3, 2, 5, \\"7\\"],
+    py: [2, 0],
+    pl: [3],
+    m: \\"3\\",
+};
+Component.defaultProps.mr = 5;
+Component.defaultProps[\\"ml\\"] = 5;
+
+<Component pr={3} mode m=\\"4\\" p={2} pl=\\"1\\" mr={[4,5]} />
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+function Component() {}
+
+Component.defaultProps = {
+  p: 2,
+  px: [4, 2, 6, \\"8\\"],
+  py: [2, 0],
+  pl: [4],
+  m: \\"4\\"
+};
+Component.defaultProps.mr = 6;
+Component.defaultProps[\\"ml\\"] = 6;
+<Component pr={4} mode m=\\"5\\" p={2} pl=\\"1\\" mr={[5, 6]} />;
+"
+`;

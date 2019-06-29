@@ -1,0 +1,39 @@
+{
+  "name": "babel-plugin-transform-react-styled-system-space-index",
+  "version": "1.0.0",
+  "description": "This babel plugin helps to change theme based space property in react styled components.",
+  "main": "./src/index.js",
+  "scripts": {
+    "code-mod": "babel example/index.js",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.4.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-tester": "^6.4.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.2.0"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "styled-components"
+  ],
+  "author": "Srikanth Mangipudi <msrikanth508@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrikanth508/babel-plugin-transform-react-styled-system-space-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/msrikanth508/babel-plugin-transform-react-styled-system-space-index/issues"
+  },
+  "homepage": "https://github.com/msrikanth508/babel-plugin-transform-react-styled-system-space-index#readme"
+}

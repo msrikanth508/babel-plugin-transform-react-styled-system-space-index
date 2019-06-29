@@ -1,0 +1,1 @@
+<Component pr={3} mode m="4" p={2} pl="1" mr={[4,5]} />;
